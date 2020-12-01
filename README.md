@@ -1,4 +1,4 @@
 # XypoCourses.github.io
 My Website Courses 
 Go Check it out --->
-https://muqorrobin22.github.io/XypoCourses.github.io/
+https://muqorrobin22.github.io/XypoCourses/
