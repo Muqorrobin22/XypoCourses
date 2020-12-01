@@ -1,0 +1,25 @@
+@mixin container {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+@mixin containerResponsive {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+@mixin squareSmall ($panjang: 12px, $tinggi: 12px){
+    width: $panjang;
+    height: $tinggi;
+    display: inline-block;
+    background: $primaryColor;
+    margin: 15px 0;
+}
+
+@mixin tombol ($atasbawah: 18px, $kanankiri: 40px) {
+    padding: $atasbawah $kanankiri;
+    outline: none;
+    background: transparent;
+    border: 2px solid $primaryColor;
+    font-weight: bold;
+    cursor: pointer;
+}
