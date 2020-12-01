@@ -1,3 +1,5 @@
+@import "variables";
+
 @mixin container {
     margin-left: 100px;
     margin-right: 100px;
@@ -22,4 +24,10 @@
     border: 2px solid $primaryColor;
     font-weight: bold;
     cursor: pointer;
+    transition: 0.2s;
+    &:hover{
+        background: $primaryColor;
+        color: white;
+        border: 2px solid white;
+    }
 }

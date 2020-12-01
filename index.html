@@ -249,10 +249,13 @@
         menuBtn.onclick = function () {
             if (sidenav.style.right == "-250px") {
                 sidenav.style.right = "-0";
+                menuBtn.style.transform = 'rotate(180deg)';
             } else {
                 sidenav.style.right = "-250px";
+                menuBtn.style.transform = 'rotate(0)';
             }
         }
+
 
         var scroll = new SmoothScroll('a[href*="#"]');
     </script>

@@ -79,8 +79,16 @@
   border: 2px solid #f67c92;
   font-weight: bold;
   cursor: pointer;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
   margin-top: 20px;
   margin-bottom: 40px;
+}
+
+#header .container .header-text button.common-btn:hover {
+  background: #f67c92;
+  color: white;
+  border: 2px solid white;
 }
 
 #sidenav {
@@ -111,6 +119,8 @@
   right: 60px;
   z-index: 2;
   width: 50px;
+  -webkit-transition: 1s;
+  transition: 1s;
   cursor: pointer;
 }
 
@@ -133,7 +143,15 @@
   border: 2px solid #f67c92;
   font-weight: bold;
   cursor: pointer;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
   margin: 30px 0;
+}
+
+#about .common-btn:hover, #offers .common-btn:hover {
+  background: #f67c92;
+  color: white;
+  border: 2px solid white;
 }
 
 #about .about-left-col, #offers .about-left-col {
@@ -217,6 +235,14 @@
   border: 2px solid #f67c92;
   font-weight: bold;
   cursor: pointer;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+#features .feature-btn .common-btn:hover {
+  background: #f67c92;
+  color: white;
+  border: 2px solid white;
 }
 
 #courses .container {
@@ -241,7 +267,15 @@
   border: 2px solid #f67c92;
   font-weight: bold;
   cursor: pointer;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
   margin: 30px 0;
+}
+
+#courses .container .course-left-col .course-text .common-btn:hover {
+  background: #f67c92;
+  color: white;
+  border: 2px solid white;
 }
 
 #courses .container .course-right-col {
@@ -308,9 +342,17 @@
   border: 2px solid #f67c92;
   font-weight: bold;
   cursor: pointer;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
   -ms-flex-preferred-size: 48%;
       flex-basis: 48%;
   padding: 18px 0;
+}
+
+#contact .container .contact-left-col form .btn-box .common-btn:hover {
+  background: #f67c92;
+  color: white;
+  border: 2px solid white;
 }
 
 #contact .container .contact-right-col {
@@ -412,9 +454,17 @@
   border: 2px solid #f67c92;
   font-weight: bold;
   cursor: pointer;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
   padding: 12px 34px;
   font-size: 10px;
   margin-top: 20px;
+}
+
+#footer .container .footer-right-col .footer-info .footer-logo .common-btn:hover {
+  background: #f67c92;
+  color: white;
+  border: 2px solid white;
 }
 
 #footer .container .footer-right-col .footer-info .copyright-text, #footer .container .footer-right-col .footer-info .footer-logo {
@@ -436,6 +486,13 @@
   display: block;
   width: 20px;
   margin: 0 auto 20px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.social-icons img:hover {
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
 }
 
 @media screen and (max-width: 770px) {
